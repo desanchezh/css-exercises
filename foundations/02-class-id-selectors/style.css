@@ -1,0 +1,19 @@
+.Odd-Numbers {
+    background-color: salmon;
+    font-family: Verdana, "Dejavu Sans", sans-serif,;
+}
+
+#Even2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.Odd-Numbers.Num3 {
+    font-size: 24px;
+}
+
+#Even4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
