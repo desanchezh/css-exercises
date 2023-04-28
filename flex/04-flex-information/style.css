@@ -3,7 +3,6 @@ body {
 }
 
 
-
 .title-container {
   display: flex;
   justify-content: center;
@@ -13,6 +12,7 @@ body {
   font-size: 36px;
   font-weight: 900;
   flex: inherit;
+  padding: 32px;
 }
 
 .plant-pics {
@@ -24,6 +24,17 @@ img {
   width: 100px;
   height: 100px;
   flex: inherit;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-around
+}
+
+.text {
+  flex: inherit;
+  padding: 16px;
+  text-align: center;
 }
 
 /* do not edit this footer */
