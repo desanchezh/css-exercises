@@ -2,10 +2,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-img {
-  width: 100px;
-  height: 100px;
-}
+
 
 .title-container {
   display: flex;
@@ -15,6 +12,17 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  flex: inherit;
+}
+
+.plant-pics {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 100px;
+  height: 100px;
   flex: inherit;
 }
 
