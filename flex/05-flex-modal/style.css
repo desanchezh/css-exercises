@@ -26,6 +26,7 @@ body {
 .icon-container{
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 .icon {
@@ -41,9 +42,16 @@ body {
   justify-content: center;
 }
 
-.rest-of-items-container {
+.rest-of-items {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  flex: auto;
 }
 
 .close-button {
@@ -56,7 +64,6 @@ body {
   width: 24px;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 button {
