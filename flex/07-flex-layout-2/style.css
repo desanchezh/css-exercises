@@ -17,14 +17,17 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
+
+ 
 
 }
 
@@ -40,21 +43,28 @@ body {
 ul {
   list-style-type: none;
   flex: auto;
+  padding: 5px;
 }
 
 a {
   text-decoration: none;
   color: white;
+
 }
 
 .content {
   display: flex;
   flex-wrap: wrap;
-  flex: auto;
 
 }
 
 .middle-container {
   display: flex;
+  flex: auto;
 
+
+}
+
+li {
+  padding: 5px;
 }
